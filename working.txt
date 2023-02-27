@@ -22,7 +22,7 @@
 	# yum update -y
 	# which git ; which java ; which javac ; which mvn ; who ; whoami ; who am i ;ls -lasrth
         # git --version
-        # java -version ; javac -version
+        # java -version ; javac -version 					==((( https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/amazon-linux-install.html  ))==
 	# sudo amazon-linux-extras enable corretto8
 	# sudo yum install java-1.8.0-amazon-corretto
 	# sudo yum install java-1.8.0-amazon-corretto-devel
@@ -34,18 +34,19 @@
         # git init
         # mkdir project ; ls ;cd project ;vi file.txt ( Write some content ) ;ls
         # git add file.txt ; git commit -m "first-project" ; ls ; git status
-        # git branch -M main
+        # git branch
         # git remote add origin https://github.com/Yeddul12/project.git
         # git push -u origin master
+		Asking git-hub usernmae: and git-hub-password  ==( Password means create a new token in github account ).	
 
 
-        +====+++$$$$  GIT CONFIGURE ADDED $$$$+++=====+
+      		  +====+++$$$$  GIT CONFIGURE ADDED $$$$+++=====+ """"""""""Asking for some times"""""
 
-        # git config --global user.email "github-email-id"
-        # git config --global user.name "github_username"
+        	  # git config --global user.email "github-email-id"
+       		  # git config --global user.name "github_username"
 
-	# git push -u origin master
-	Asking git-hub usernmae: and git-hub-password  ==( Password means create a new token in github account )
+		  # git push -u origin master
+		  	Asking git-hub usernmae: and git-hub-password  ==( Password means create a new token in github account )
 
                                         After push the git-hub account
 
@@ -78,9 +79,12 @@ $$$$$$$$$$$$$$********************* After Using this commands ******************
 
 ===)) TO GOTO WEB BROSER SEARCH 
 				Public IPv4 address:portid/filename  ====) Which file name is FILE.WAR
-				52.199.226.33:8080/file
+				52.199.226.33:8080/file  ===) just like this.
 
 =========*****%%%%%   		DISPLAY OUT PUT		 %%%%%%%******=========== 
+
+
+
 
 
 
