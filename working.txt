@@ -1,0 +1,86 @@
+                      &&&&&==== GIT - JAVA - MAVEN - EXECUTED =====&&&&&
+
+================================ AMAZON CREATE INSTANCES STPES ===========================
+		
+		1.Lanch instances
+			==) Name and tags : project
+			==) Application and OS Images (Amazon Machine Image): Amazon Linux 2 Kernel 5.10 AMI 2.0.20230207.0 x86_64 HVM gp2
+			==) Instance type : t2.micro
+			==) Key pair (login) : One tab open ( write a keypair name after create-key-pair )
+			==) Network settings : first click one edit option after select SSH , HTTP , HTTPS and ALL TRAFFIC.
+			==) Configure storage : 8 gip
+			==) Lanch Instances ========= view all instances ======== 
+			==) To Status check : 2/2 Checks passed   === After to start process
+			==) To select project - to connect option click - After showing four types of connections there choose one to connect.  
+
+
+                Maven project to executed in browser (==( Amazon Linux executed method )==)
+
+========================== create a git version,java and maven ===============================
+
+	# sudo su         ==( to change the ec2-to root user )
+	# yum update -y
+	# which git ; which java ; which javac ; which mvn ; who ; whoami ; who am i ;ls -lasrth
+        # git --version
+        # java -version ; javac -version
+	# sudo amazon-linux-extras enable corretto8
+	# sudo yum install java-1.8.0-amazon-corretto
+	# sudo yum install java-1.8.0-amazon-corretto-devel
+	# sudo yum localinstall java-1.8.0-amazon-corretto*.rpm
+	# java -version ; javac -version
+	# yum install maven -y 
+        # mvn --version
+
+        # git init
+        # mkdir project ; ls ;cd project ;vi file.txt ( Write some content ) ;ls
+        # git add file.txt ; git commit -m "first-project" ; ls ; git status
+        # git branch -M main
+        # git remote add origin https://github.com/Yeddul12/project.git
+        # git push -u origin master
+
+
+        +====+++$$$$  GIT CONFIGURE ADDED $$$$+++=====+
+
+        # git config --global user.email "github-email-id"
+        # git config --global user.name "github_username"
+
+	# git push -u origin master
+	Asking git-hub usernmae: and git-hub-password  ==( Password means create a new token in github account )
+
+                                        After push the git-hub account
+
+$$$$$$$$$$$$$$$$**** MAVEN PROJECT WORKING START *****$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+                                                                                            
+        # git clone https://github.com/nageshvkn/iflipkart.git
+        # ls ; cd iflipkart ; ls ===( to display the SRC and pom.xml )====
+
+==========================CHANGE THE CODE USING THIS COMMANDS==================================
+
+		src
+		└── main
+		    └── webapp
+		        ├── index.html     ===== Change here index.html code =====
+		        └── WEB-INF
+		            └── web.xml
+
+$$$$$$$$$$$$$$********************* After Using this commands **********************$$$$$$$$$$$$$$$$$$$$
+
+	# mvn install ; ls  (==( Showing target floder )====)
+	# cd target  (===( to check the .war file )===)
+	# cd ../ ; wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.72/bin/apache-tomcat-9.0.72.tar.gz
+	# tar -zxvf apache-tomcat-9.0.72.tar.gz ; ls 
+	# cd apache-tomcat-9.0.72/webapps/ ;ls   (===( check the .war is there or not )===)
+	# cp /home/ec2-user/iflipkart/target/flipkart.war . ; ls
+	# cd ../bin ; ls
+	# ./startup.sh ; hostname ; hostname -i 
+
+&&&=== TO GO TO AWS INSTANCES TO ADDED A SECURITY GROUPS TO EDIT-INBOUND-RULES TO ADDED (((  SSH , HTTP , HTTPS AND ALL TRAFFIC  )))====&&&&
+
+===)) TO GOTO WEB BROSER SEARCH 
+				Public IPv4 address:portid/filename  ====) Which file name is FILE.WAR
+				52.199.226.33:8080/file
+
+=========*****%%%%%   		DISPLAY OUT PUT		 %%%%%%%******=========== 
+
+
+
